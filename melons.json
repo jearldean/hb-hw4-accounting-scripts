@@ -1,0 +1,48 @@
+{"melon data": [
+    {
+        "name": "Honeydew",
+        "price": 0.99,
+        "seeds": false,
+        "flesh color": "green",
+        "rind color": "brown",
+        "average weight": 1.0,
+        "zip code where grown": 95125
+    },
+    {
+        "name": "Crenshaw",
+        "price": 2.00,
+        "seeds": true,
+        "flesh color": "green",
+        "rind color": "brown",
+        "average weight": 1.1,
+        "zip code where grown": 90210
+    },
+    {
+        "name": "Crane",
+        "price": 2.00,
+        "seeds": true,
+        "flesh color": "red",
+        "rind color": "green",
+        "average weight": 2.0,
+        "zip code where grown": 95130
+    },
+    {
+        "name": "Casaba",
+        "price": 2.00,
+        "seeds": true,
+        "flesh color": "green",
+        "rind color": "green",
+        "average weight": 2.1,
+        "zip code where grown": 95014
+    },
+    {
+        "name": "Cantaloupe",
+        "price": 2.00,
+        "seeds": true,
+        "flesh color": "orange",
+        "rind color": "brown",
+        "average weight": 2.2,
+        "zip code where grown": 12554
+    }
+    ]
+}
