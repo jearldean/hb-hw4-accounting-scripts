@@ -1,22 +1,25 @@
 """Print out all the melons in our inventory."""
 import json
 
+# Stored my nested dict in a .json file
 with open('melons.json') as f:
   melon_data = json.load(f)
 
-for i in range(len(melon_data["melon data"])):
+for melon_name in melon_data:
+    """ Use a nested dict to print all melon data.
+
+    {
+        "Cantaloupe": {
+            "price": 2.00,
+            "seeds": true,
+            "flesh color": "orange",
+            "rind color": "brown",
+            "average weight": 2.2,
+            "zip code where grown": 12554
+        }, ...
+    }
     """
-        "name": "Honeydew",
-        "price": 0.99,
-        "seeds": false,
-        "flesh color": "green",
-        "rind color": "brown",
-        "average weight": 1.0,
-        "zip code where grown": 95125
-    """
-    for key in melon_data["melon data"][i]:
-        if key == 'name':
-            print(melon_data["melon data"][i][key].upper())
-        else:   
-            print(f"\t{key}: {melon_data['melon data'][i][key]}")
+    print(melon_name.upper())
+    for attribute_key in melon_data[melon_name]:
+        print(f"\t{attribute_key}: {melon_data[melon_name][attribute_key]}")
     print("\n")

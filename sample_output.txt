@@ -1,0 +1,47 @@
+hackbright@d73cab7805cd:~/src/hb-hw4-accounting-scripts (main) $ /usr/bin/python3 /home/hackbright/src/hb-hw4-accounting-scripts/melon_info.py
+HONEYDEW
+        price: 0.99
+        seeds: False
+        flesh color: green
+        rind color: brown
+        average weight: 1.0
+        zip code where grown: 95125
+
+
+CRENSHAW
+        price: 2.0
+        seeds: True
+        flesh color: green
+        rind color: brown
+        average weight: 1.1
+        zip code where grown: 90210
+
+
+CRANE
+        price: 2.0
+        seeds: True
+        flesh color: red
+        rind color: green
+        average weight: 2.0
+        zip code where grown: 95130
+
+
+CASABA
+        price: 2.0
+        seeds: True
+        flesh color: green
+        rind color: green
+        average weight: 2.1
+        zip code where grown: 95014
+
+
+CANTALOUPE
+        price: 2.0
+        seeds: True
+        flesh color: orange
+        rind color: brown
+        average weight: 2.2
+        zip code where grown: 12554
+
+
+hackbright@d73cab7805cd:~/src/hb-hw4-accounting-scripts (main) $
